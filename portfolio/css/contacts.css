@@ -1,0 +1,28 @@
+body{
+    background: url("/phones.jpg");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#details{
+    position: relative;
+    top: 100px;
+    left:42%;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li{
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+img{
+    height: 50px;
+    width:50px
+}

@@ -1,0 +1,29 @@
+body{
+    background:url("/aboutmeimg");
+    background-position: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h2{
+    text-align: center;
+    
+}
+p,li,label{
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input{
+    padding: 05px;
+    margin-left: 100px;
+}
+label{
+    margin: 100px;
+}
+#gpa:hover{
+    opacity: 1;
+}
+p,li{
+    font-size: 25px;
+}

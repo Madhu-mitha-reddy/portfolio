@@ -1,0 +1,100 @@
+body{
+    background: url("/background\ portfolio.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#first div{
+display:inline-block;
+position: relative;
+left: 65%;
+padding: 30px;
+}
+a:link{
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid pink;
+    color: black;
+    background-color: rgb(241, 202, 208);
+    border-radius: 10px;
+    font-size: 25px;
+}
+a:hover{
+    background-color: pink;
+    color: rgb(29, 28, 28);
+}
+img{
+    margin-left: 60%;
+    display: block;
+    height: 450px;
+    width: 30%;
+    border-radius: 50%;
+    margin-top: 3px;
+}
+#intro{
+    position: relative;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 300px;
+    left: 50px;
+}
+#footsection{
+    padding: 20px;
+    margin-left: 40%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: 25px;
+}
+
+
+@media screen and (minwidth:300px) and (maxwidth:780px){
+    body{
+        background: url("/background\ portfolio.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    #first div{
+    display:inline-block;
+    position: relative;
+    left: 65%;
+    padding: 30px;
+    }
+    a:link{
+        text-decoration: none;
+        padding: 10px;
+        border: 1px solid pink;
+        color: black;
+        background-color: rgb(241, 202, 208);
+        border-radius: 10px;
+        font-size: 25px;
+    }
+    a:hover{
+        background-color: pink;
+        color: rgb(29, 28, 28);
+    }
+    img{
+        margin-left: 60%;
+        display: block;
+        height: 450px;
+        width: 30%;
+        border-radius: 50%;
+        margin-top: 3px;
+    }
+    #intro{
+        position: relative;
+        font-size: large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        top: 300px;
+        left: 50px;
+    }
+    #footsection{
+        padding: 20px;
+        margin-left: 40%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    p{
+        font-size: 25px;
+    }
+}
